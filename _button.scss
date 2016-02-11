@@ -1,9 +1,9 @@
 button {
   display: block;
+  box-sizing: border-box;
   width: 200px;
   height: 200px;
-  margin: 0 auto;
-  margin-top: 10%;
+  margin: 10% auto;
   border-style: solid;
   border-top-width: 4px;
   border-left-width: 4px;
@@ -13,13 +13,11 @@ button {
   background-color: #EF7B45;
   border-radius: 100%;
   &:active {
-    background-color: #042A2B;
+    background-color: #5EB1BF;
     border-color: #CDEDF6;
   }
   h1 {
-    color: #FFFFFF;
     background-color: inherit;
-    font-size: 3.5em;
     width: 80%;
     margin: 0 auto;
   }

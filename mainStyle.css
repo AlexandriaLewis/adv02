@@ -1,15 +1,20 @@
 * {
-  background-color: #042A2B; }
+  background-color: #042A2B;
+  color: #CDEDF6;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px; }
 
 h1 {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-size: 2.5em; }
 
 button {
   display: block;
+  box-sizing: border-box;
   width: 200px;
   height: 200px;
-  margin: 0 auto;
-  margin-top: 10%;
+  margin: 10% auto;
   border-style: solid;
   border-top-width: 4px;
   border-left-width: 4px;
@@ -19,11 +24,26 @@ button {
   background-color: #EF7B45;
   border-radius: 100%; }
   button:active {
-    background-color: #042A2B;
+    background-color: #5EB1BF;
     border-color: #CDEDF6; }
   button h1 {
-    color: #FFFFFF;
     background-color: inherit;
-    font-size: 3.5em;
     width: 80%;
     margin: 0 auto; }
+
+.textbox {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-style: solid;
+  border-top-width: 4px;
+  border-left-width: 4px;
+  border-right-width: 6px;
+  border-bottom-width: 6px;
+  border-color: #CDEDF6;
+  background-color: #5EB1BF;
+  overflow: auto;
+  color: #042A2B; }
+  .textbox p {
+    background-color: inherit; }

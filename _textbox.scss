@@ -1,0 +1,18 @@
+.textbox {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-style: solid;
+  border-top-width: 4px;
+  border-left-width: 4px;
+  border-right-width: 6px;
+  border-bottom-width: 6px;
+  border-color: #CDEDF6;
+  background-color: #5EB1BF;
+  overflow: auto;
+  color: #042A2B;
+  p {
+    background-color: inherit;
+  }
+}
